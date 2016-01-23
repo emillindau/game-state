@@ -1,0 +1,229 @@
+
+{
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13519,
+                "steamid": "76561197960574906",
+                "timestamp": 1453562300
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "live",
+                "round": 4,
+                "team_ct": {
+                        "score": 0
+                },
+                "team_t": {
+                        "score": 4
+                }
+        },
+        "round": {
+                "phase": "freezetime"
+        },
+        "player": {
+                "steamid": "76561197960574906",
+                "name": "magic twist",
+                "team": "T",
+                "activity": "playing",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 8800,
+                        "round_kills": 0,
+                        "round_killhs": 0
+                },
+                "weapons": {
+                        "weapon_0": {
+                                "name": "weapon_knife_karambit",
+                                "paintkit": "aq_steel_knife",
+                                "type": "Knife",
+                                "state": "holstered"
+                        },
+                        "weapon_1": {
+                                "name": "weapon_glock",
+                                "paintkit": "gs_glock18_wrathys",
+                                "type": "Pistol",
+                                "ammo_clip": 20,
+                                "ammo_clip_max": 20,
+                                "ammo_reserve": 120,
+                                "state": "holstered"
+                        },
+                        "weapon_2": {
+                                "name": "weapon_c4",
+                                "paintkit": "default",
+                                "type": "C4",
+                                "state": "active"
+                        },
+                        "weapon_3": {
+                                "name": "weapon_ak47",
+                                "paintkit": "cu_panther_ak47",
+                                "type": "Rifle",
+                                "ammo_clip": 30,
+                                "ammo_clip_max": 30,
+                                "ammo_reserve": 90,
+                                "state": "holstered"
+                        },
+                        "weapon_4": {
+                                "name": "weapon_hegrenade",
+                                "paintkit": "default",
+                                "type": "Grenade",
+                                "ammo_reserve": 1,
+                                "state": "holstered"
+                        }
+                },
+                "match_stats": {
+                        "kills": 2,
+                        "assists": 0,
+                        "deaths": 0,
+                        "mvps": 2,
+                        "score": 7
+                }
+        },
+        "previously": {
+                "round": {
+                        "phase": "over",
+                        "win_team": "T"
+                },
+                "player": {
+                        "state": {
+                                "round_kills": 1
+                        },
+                        "weapons": {
+                                "weapon_0": {
+                                        "state": "active"
+                                },
+                                "weapon_2": {
+                                        "name": "weapon_ak47",
+                                        "paintkit": "cu_panther_ak47",
+                                        "type": "Rifle",
+                                        "ammo_clip": 23,
+                                        "ammo_clip_max": 30,
+                                        "ammo_reserve": 90,
+                                        "state": "holstered"
+                                },
+                                "weapon_3": {
+                                        "name": "weapon_hegrenade",
+                                        "paintkit": "default",
+                                        "type": "Grenade",
+                                        "ammo_reserve": 1
+                                }
+                        }
+                }
+        },
+        "added": {
+                "player": {
+                        "weapons": {
+                                "weapon_3": {
+                                        "ammo_clip": true,
+                                        "ammo_clip_max": true
+                                },
+                                "weapon_4": true
+                        }
+                }
+        },
+        "auth": {
+                "token": "CCWJu64ZV3JHDT8hZc"
+        }
+}
+
+{
+        "provider": {
+                "name": "Counter-Strike: Global Offensive",
+                "appid": 730,
+                "version": 13519,
+                "steamid": "76561197960574906",
+                "timestamp": 1453562301
+        },
+        "map": {
+                "mode": "casual",
+                "name": "de_dust2",
+                "phase": "live",
+                "round": 4,
+                "team_ct": {
+                        "score": 0
+                },
+                "team_t": {
+                        "score": 4
+                }
+        },
+        "round": {
+                "phase": "freezetime"
+        },
+        "player": {
+                "steamid": "76561197960574906",
+                "name": "magic twist",
+                "team": "T",
+                "activity": "textinput",
+                "state": {
+                        "health": 100,
+                        "armor": 100,
+                        "helmet": true,
+                        "flashed": 0,
+                        "smoked": 0,
+                        "burning": 0,
+                        "money": 8800,
+                        "round_kills": 0,
+                        "round_killhs": 0
+                },
+                "weapons": {
+                        "weapon_0": {
+                                "name": "weapon_knife_karambit",
+                                "paintkit": "aq_steel_knife",
+                                "type": "Knife",
+                                "state": "holstered"
+                        },
+                        "weapon_1": {
+                                "name": "weapon_glock",
+                                "paintkit": "gs_glock18_wrathys",
+                                "type": "Pistol",
+                                "ammo_clip": 20,
+                                "ammo_clip_max": 20,
+                                "ammo_reserve": 120,
+                                "state": "holstered"
+                        },
+                        "weapon_2": {
+                                "name": "weapon_c4",
+                                "paintkit": "default",
+                                "type": "C4",
+                                "state": "active"
+                        },
+                        "weapon_3": {
+                                "name": "weapon_ak47",
+                                "paintkit": "cu_panther_ak47",
+                                "type": "Rifle",
+                                "ammo_clip": 30,
+                                "ammo_clip_max": 30,
+                                "ammo_reserve": 90,
+                                "state": "holstered"
+                        },
+                        "weapon_4": {
+                                "name": "weapon_hegrenade",
+                                "paintkit": "default",
+                                "type": "Grenade",
+                                "ammo_reserve": 1,
+                                "state": "holstered"
+                        }
+                },
+                "match_stats": {
+                        "kills": 2,
+                        "assists": 0,
+                        "deaths": 0,
+                        "mvps": 2,
+                        "score": 7
+                }
+        },
+        "previously": {
+                "player": {
+                        "activity": "playing"
+                }
+        },
+        "auth": {
+                "token": "CCWJu64ZV3JHDT8hZc"
+        }
+}
