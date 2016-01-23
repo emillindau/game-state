@@ -2,10 +2,33 @@
   "name": "game-state",
   "version": "0.0.1",
   "description": "Game State integration with csgo",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "watchify app.js -o public/js/bundle.js -v",
+    "browserify": "browserify app.js | uglifyjs > public/js/bundle.js",
+    "build": "npm run browserify ",
+    "start": "npm run watch & nodemon server.js"
   },
   "author": "Emil Lindau",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-handlebars": "^2.0.1",
+    "fs": "0.0.2",
+    "node-jsx": "^0.13.3",
+    "react": "^0.14.6",
+    "socket.io": "^1.4.4"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "nodemon": "^1.8.1",
+    "reactify": "^1.1.1",
+    "uglify-js": "^2.6.1",
+    "watchify": "^3.7.0"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  }
 }
