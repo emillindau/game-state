@@ -1,12 +1,11 @@
 'use strict';
 
 var http = require('http'),
-    fs = require('fs');
-    // express = require('express'),
-    // exphbs = require('express-handlebars'),
-    // routes = require('./routes'),
-    // config = require('./config');
-/*
+    fs = require('fs'),
+    express = require('express'),
+    exphbs = require('express-handlebars'),
+    routes = require('./routes');
+
 // Create express instance and set a port variable
 const port = process.env.PORT || 3000;
 var app = express();
@@ -31,8 +30,8 @@ var io = require('socket.io').listen(server);
 
 // Initialize routes
 routes(app, io);
-*/
 
+/*
 const port = 3000;
 const host = '127.0.0.1';
 
@@ -59,3 +58,4 @@ var server = http.createServer(function(req, res) {
 
 server.listen(port, host);
 console.log('Listening at http://' + host + ':' + port);
+*/
