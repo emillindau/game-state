@@ -3,7 +3,8 @@
 var JSX = require('node-jsx').install(),
     React = require('react'),
     Match = require('./models/Match'),
-    GameStateApp = require('./components/GameStateApp.react');
+    ReactDOMServer = require('react-dom/server'),
+    GameStateApp = React.createFactory(require('./components/GameStateApp.react'));
 
 
 const EXAMPLE_DATA = {
@@ -127,7 +128,7 @@ module.exports = function(app, io) {
     app.get('/', function(req, res) {
         Match.getMatches(function(matches) {
             // Render React to a string, passing in our fetched states
-            var markup = React.renderComponentToString(
+            var markup = ReactDOMServer.renderToString(
                 GameStateApp({
                     matches: matches
                 })

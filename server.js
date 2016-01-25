@@ -3,6 +3,7 @@
 var http = require('http'),
     fs = require('fs'),
     express = require('express'),
+    mongoose = require('mongoose'),
     exphbs = require('express-handlebars'),
     routes = require('./routes');
 
@@ -16,6 +17,9 @@ app.set('view engine', 'handlebars');
 
 // Disable etag headers on responses
 app.disable('etag');
+
+// Connect to our mongo database
+mongoose.connect('mongodb://localhost/game-state');
 
 // Set public as static content dir
 app.use('/', express.static(__dirname + '/public/'));

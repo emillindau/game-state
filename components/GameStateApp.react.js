@@ -29,19 +29,19 @@ var GameStateApp = React.createClass({
     render() {
         return (
             <div>
-            <p>{this.state.name}</p>
-            <p>{this.state.team}</p>
-            <p>{this.state.health}</p>
-            <p>{this.state.armor}</p>
-            <p>{this.state.helmet}</p>
-            <p>{this.state.money}</p>
-            <p>{this.state.round_kills}</p>
-            <p>{this.state.round_killhs}</p>
-            <p>{this.state.kills}</p>
-            <p>{this.state.assists}</p>
-            <p>{this.state.deaths}</p>
-            <p>{this.state.mvps}</p>
-            <p>{this.state.score}</p>
+                <p>Name:         {this.state.name}</p>
+                <p>Team:         {this.state.team}</p>
+                <p>Health:       {this.state.health}</p>
+                <p>Armor:        {this.state.armor}</p>
+                <p>Helmet:       {this.state.helmet}</p>
+                <p>Money:        {this.state.money}</p>
+                <p>Round kills:  {this.state.round_kills}</p>
+                <p>Round Killhs: {this.state.round_killhs}</p>
+                <p>Kills:        {this.state.kills}</p>
+                <p>Assists:      {this.state.assists}</p>
+                <p>Deaths:       {this.state.deaths}</p>
+                <p>Mvps:         {this.state.mvps}</p>
+                <p>Score:        {this.state.score}</p>
             </div>
         );
     },
